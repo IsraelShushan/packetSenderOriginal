@@ -440,10 +440,10 @@ _Note: Setting an ID in use will replace that panel_
 
 <a id="cli"></a>
 
-# DTLS Application
+# DTLS
 
 ## Overview
-This repository contains a DTLS (Datagram Transport Layer Security) application. The application provides a graphical interface to configure and manage DTLS connections, including server verification and session persistence options. It also includes integration with Wireshark for analyzing DTLS traffic.
+This repository contains a DTLS (Datagram Transport Layer Security) protocol feature. This feature have added a graphical interface to configure and manage DTLS connections, including server verification and session persistence options.
 
 ## Features
 
@@ -483,11 +483,11 @@ Sniffing by Wireshark:
 
 ### Regular Connection
 ![Regular Connection](screenshots/wireshark_simple_session.png)
-- Example of a regular DTLS connection captured using Wireshark.
+- Example of a regular DTLS connection captured sniffed by Wireshark.
 
 ### Persistent Connection
 ![Persistent Connection](screenshots/wireshark_persistent_connection.png)
-- Example of a persistent DTLS connection using Wireshark.
+- Example of a persistent DTLS connection sniffed by Wireshark.
 
 # Command Line
 Packet Sender can be used from the command line on your computer. 
