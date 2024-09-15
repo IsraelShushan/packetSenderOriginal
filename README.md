@@ -457,41 +457,37 @@ This repository contains a DTLS (Datagram Transport Layer Security) application.
 - **DTLS Server Port**: Button to define the DTLS server port for the connection.
 
 #### Additional Images:
-![Cipher Suites Dropdown](screenshots/cipher_suites_dropdown.png)
+![Cipher Suites Dropdown](screenshots/cipher_suites.png)
 - A detailed view of the cipher suite selection dropdown.
 
-![Server Verification](screenshots/server_verification.png)
-- Illustration of the server verification option during the handshake process.
+![Persistent Connection](screenshots/persistant_dtls.png)
+- Persistent connection window while DTLS.
+
+![Server Port](screenshots/server_ports.png)
+- On click button for DTLS server Enabling or disabling.
 
 ### Settings Window
 
 #### Network Tab
-![Network Tab](screenshots/network_tab.png)
+![Network Tab](screenshots/settings.png)
 - **Send Simple Acknowledge**: Checkbox to enable the sending of a simple acknowledgment.
 - **Enable DTLS Server**: Option to enable the DTLS server and select a port.
 - **Certificates and Keys**: Certificates and keys can be loaded similarly to SSL configuration.
 
 #### Smart Responses Tab
-![Smart Responses Tab](screenshots/smart_responses_tab.png)
+![Smart Responses Tab](screenshots/settings_2.png)
 - **Smart Responses**: Smart responses feature works over the DTLS protocol.
 
 ## Wireshark Integration
-The application includes examples that can be used with Wireshark for capturing and analyzing DTLS connections:
+Sniffing by Wireshark:
 
 ### Regular Connection
-![Regular Connection](screenshots/regular_connection.png)
+![Regular Connection](screenshots/wireshark_simple_session.png)
 Example of a regular DTLS connection captured using Wireshark.
 
 ### Persistent Connection
-![Persistent Connection](screenshots/persistent_connection.png)
+![Persistent Connection](screenshots/wireshark_persistent_connection.png)
 Example of a persistent DTLS connection using Wireshark.
-
-## How to Use
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/dtls-application.git
-
-
 
 # Command Line
 Packet Sender can be used from the command line on your computer. 
