@@ -460,7 +460,7 @@ This repository contains a DTLS (Datagram Transport Layer Security) application.
 ![Cipher Suites Dropdown](screenshots/cipher_suites.png)
 - A detailed view of the cipher suite selection dropdown.
 
-![Persistent Connection](screenshots/persistant_dtls.png)
+![Persistent Connection](screenshots/persistant_dtls.jpg)
 - Persistent connection window while DTLS.
 
 ![Server Port](screenshots/server_ports.png)
