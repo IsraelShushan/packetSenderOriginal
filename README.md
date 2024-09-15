@@ -483,11 +483,11 @@ Sniffing by Wireshark:
 
 ### Regular Connection
 ![Regular Connection](screenshots/wireshark_simple_session.png)
-Example of a regular DTLS connection captured using Wireshark.
+- Example of a regular DTLS connection captured using Wireshark.
 
 ### Persistent Connection
 ![Persistent Connection](screenshots/wireshark_persistent_connection.png)
-Example of a persistent DTLS connection using Wireshark.
+- Example of a persistent DTLS connection using Wireshark.
 
 # Command Line
 Packet Sender can be used from the command line on your computer. 
